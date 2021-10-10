@@ -1,0 +1,20 @@
+{
+    "name": "harish/fluentapi",
+    "description": "Add fluent design patten to php project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish Rawat",
+            "email": "harishrawat93@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FluentAPI\\" : "src/"
+        }
+    }
+}
